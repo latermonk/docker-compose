@@ -7,7 +7,7 @@ we need to exec the following commands:
 ## redis container
 
 ```
-docker run -d -p  6379:6379  redis:alpine
+docker run -d --name  redis   -p  6379:6379  redis:alpine
 
 ```
 
@@ -16,7 +16,7 @@ docker run -d -p  6379:6379  redis:alpine
 ```
 docker build -t web .
 
-docker run -d -p 5000:5000 web  
+docker run -d --link  redis:db -p 5000:5000 web  
 
 ```
 
