@@ -57,6 +57,15 @@ docker-compose up
 ```
 
 
+Then just:
+
+```
+curl  127.0.0.1:5000
+
+```
+
+
+
 #####  Reference:
 https://docs.docker.com/compose/gettingstarted/     
 
