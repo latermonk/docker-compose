@@ -118,6 +118,14 @@ PWD=/code
 ```
 
 
+## 根据container-id反查容器名称
+
+```
+docker inspect -f "{{ .Name }}"  container-id
+
+
+```
+
 #####  Reference:
 https://docs.docker.com/compose/gettingstarted/     
 
