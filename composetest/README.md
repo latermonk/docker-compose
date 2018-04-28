@@ -66,6 +66,16 @@ curl  127.0.0.1:5000
 
 
 
+#  容器之间的连接
+
+容器连接一般用：
+
+```
+--link name:alias
+
+```
+
+
 #####  Reference:
 https://docs.docker.com/compose/gettingstarted/     
 
