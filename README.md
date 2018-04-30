@@ -37,7 +37,8 @@ https://yeasy.gitbooks.io/docker_practice/content/compose/introduction.html
 
 A simple example :
 
-YOUTUBE
+YOUTUBE      
+https://www.youtube.com/watch?v=Qw9zlE3t8Ko     
 
 A simple example:
 
